@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/*base styles*/
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: rgb(28, 27, 27);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+/*nav bar styles*/
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #00b4d8;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #00b4d8;
+}
+.navbar button {
+  background: #fff;
+  color: #00b4d8;
+  border: 2px solid #00b4d8;
+  padding: 6px 10px;
+  margin-left: 10px;
+  width: max-content;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+
+/*main body styles*/
+.mainbody h2 {
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  font-size: 23px;
+}
+
+
+/*form styles*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-weight: 700;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #00b4d8;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  margin: 10px 75px;
+}
+
+
+/*Login Css*/
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 20px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 6px 15px 2px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 60px;
+  background: #00b4d8;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #00b4d8;
+  border: 1px solid #16a085;
+  cursor: pointer;
+}
+
+/*Table css*/
+.Table {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border: 1.6px solid #00b4d8;
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+}
+th {
+  border-bottom: 1px solid black;
+  padding: 8px 50px;
+}
+td {
+  text-align: center;
+  padding: 5px 50px;
+}
+
+
+/*Image css*/
+.image img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  margin-bottom: 15px;
+  height: 150px;
+  width: 150px;
+}
+
+
+/*Error and loading css*/
+.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid #e7195a;
+  color: #e7195a;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+.loading {
+  padding: 10px;
+  background: #eff3ff;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+
+/*Select margin*/
+.select {
+  margin: 8px;
+}

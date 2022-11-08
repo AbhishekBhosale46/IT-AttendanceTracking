@@ -1,0 +1,66 @@
+{
+  "students": [
+    {
+      "name": "Abhishek",
+      "divname": "SE01",
+      "roll": "21109",
+      "id": "1"
+    },
+    {
+      "name": "Student1",
+      "divname": "SE03",
+      "roll": "21311",
+      "id": "2"
+    },
+    {
+      "name": "Student2",
+      "class": "SE04",
+      "rollno": "21425",
+      "id": "3"
+    },
+    {
+      "name": "Student3",
+      "class": "SE03",
+      "rollno": "21359",
+      "id": "4"
+    },
+    {
+      "name": "Student4",
+      "class": "SE05",
+      "rollno": "21510",
+      "id": "5"
+    },
+    {
+      "2022-09-12": "a",
+      "id": "TIH7VsU"
+    },
+    {
+      "": "a",
+      "id": "Rbix9jc"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "professor1",
+      "class": [
+        "SE01",
+        "SE02"
+      ],
+      "year": [
+        "SE",
+        "TE"
+      ],
+      "subject": [
+        "OOP",
+        "DBMS"
+      ],
+      "id": "1"
+    }
+  ],
+  "attendance": [
+    {
+      "12-09-2022": "p",
+      "11-09-2022": "a"
+    }
+  ]
+}
